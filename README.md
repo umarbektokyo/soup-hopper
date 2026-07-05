@@ -1,0 +1,17 @@
+# Soup-Hopper
+The world is ending on July 7th... and in the ending of the world, soup turns into a can! Imagine if this soup-hopper could ride around, shooting into people (and otherworldy creatures that are ending the world) with a powerful water gun.
+![demo](assets/demo.png)
+# BOM
+## Soup-Hopper
+- Aluminium Can
+- LXN 18650 2000mAh - 7.4V 14.8Wh
+- ESP32 XIAO C3
+- MPU-6050
+The main body is made of an aluminium can. On both sides, there is a motor (2207), an MPU-6050, ESP32 XIAO C3. Additionally, it will be able to sprink water, but that is a separate system for later. The goal with the base Soup-Hopper's form is to be able to ride forward/backward while the orientation of the robot stays the same. The controls are: turning right/left (wheels turn opposite dimensions) and also turning up/down (looking up and down whilst in-place idk how if we have only two motors).
+## Contro-Soup
+- Hand-carved wooden side stick controller
+- ESP32 XIAO C3
+- MPU-6050
+Unsure on the actual form yet, it will be decided once carving is finished.
+# Other
+Currenly I'm testing an esp32 with MPU-6050. I am flashing it with Arduino IDE. It would be great if we create separate modules for each hardware module such as separate full function for the MPU, each motor and controller, just mapping them together in the main singleton. Some idiomatic clean code like what I write in Golang.
