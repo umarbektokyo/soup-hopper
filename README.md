@@ -31,11 +31,22 @@ Wiring for Soup-Hopper:
   Relay NO - Vacumn Pump opposite
   Relay Com - 7.7V Battery red
   Motor's RED and BLACK are connected to 7.7V Batteries
-?May I ask on if the wriing is correct and why are there 3 wires between escontroller and motor?
 ## Contro-Soup
 - Hand-carved wooden side stick controller
 - ESP32 XIAO C3
 - MPU-6050
+- Wiring was handled handled by @popo, we have this:
+Wiring:
+- Analog Stick: Y: GPIO PIN 0, X: GPIO PIN 1, Click: PIN 5
+- Extra Buttons: Front: GPIO 4, Back-Up: GPIO 2, Back-Bottom: GPIO 3
+- Accelerometer: SDL: 9, SDA: PIN 8
 Unsure on the actual form yet, it will be decided once carving is finished.
 # Other
 Currenly I'm testing an esp32 with MPU-6050. I am flashing it with Arduino IDE. It would be great if we create separate modules for each hardware module such as separate full function for the MPU, each motor and controller, just mapping them together in the main singleton. Some idiomatic clean code like what I write in Golang.
+We are communicating between the two esp32's on the controller and hopper through peer to peer ESP communication.
+We must figure out if PID is necessary and how to implemented into our porject.
+Whilst writing code, all of the constants must be defined at the beginning fo the file, making it easy to fine tune parameters.
+# Controls
+- Joystick forward/backward will correlate to the movement of the hopper (both wheels go front back I suppose.)
+- Joystick right/left will correlate to the rotation of the robot (one wheel front, other back.)
+- There is an IMU6050 inside of the robot, it would be great if we could make so the robot's main cylinder stay stable whilst the wheels rotate.
