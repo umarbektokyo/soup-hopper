@@ -8,6 +8,7 @@ The world is ending on July 7th... and in the ending of the world, soup turns in
 - ESP32 XIAO C3
 - MPU-6050
 The main body is made of an aluminium can. On both sides, there is a motor (2207), an MPU-6050, ESP32 XIAO C3. Additionally, it will be able to sprink water, but that is a separate system for later. The goal with the base Soup-Hopper's form is to be able to ride forward/backward while the orientation of the robot stays the same. The controls are: turning right/left (wheels turn opposite dimensions) and also turning up/down (looking up and down whilst in-place idk how if we have only two motors).
+![wiring](assets/wiring.png)
 Wiring for Soup-Hopper:
 - ESP32 to MPU6050:
   GND - GND
