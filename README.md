@@ -2,6 +2,15 @@
 **PRINT LINK**: https://drive.google.com/file/d/1DVYpBXSPw7tf-m13rQiefNHga5u4Mh4T/view?usp=drive_link
 The world is ending on July 7th... and in the ending of the world, soup turns into a can! Imagine if this soup-hopper could ride around, shooting into people (and otherworldy creatures that are ending the world) with a powerful water gun.
 ![demo](assets/demo.png)
+
+## Prototype gallery
+
+<p align="center">
+  <img src="assets/soup-hopper-closeup.jpg" width="48%" alt="Close-up of the can-bodied Soup Hopper prototype and its hardware" />
+  <img src="assets/soup-hopper-prototype.jpg" width="48%" alt="Soup Hopper rolling chassis with its can body and two wheels" />
+</p>
+
+[Watch the 10-second movement test](assets/soup-hopper-demo.mp4).
 # BOM
 ## Soup-Hopper
 - Aluminium Can
