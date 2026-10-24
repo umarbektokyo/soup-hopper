@@ -10,7 +10,7 @@ The world is ending on July 7th... and in the ending of the world, soup turns in
   <img src="assets/soup-hopper-prototype.jpg" width="48%" alt="Soup Hopper rolling chassis with its can body and two wheels" />
 </p>
 
-[Watch the 10-second movement test](assets/soup-hopper-demo.mp4).
+![Soup Hopper rolling during a prototype test](assets/soup-hopper.gif)
 # BOM
 ## Soup-Hopper
 - Aluminium Can
